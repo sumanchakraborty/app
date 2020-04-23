@@ -1,0 +1,22 @@
+initialize
+----------
+mysql> CREATE TABLE IF NOT EXISTS test.users (
+    -> id INT NOT NULL AUTO_INCREMENT,
+    -> name VARCHAR(255),
+    -> lname VARCHAR(255),
+    -> country VARCHAR(255),
+    -> PRIMARY KEY (id))
+    -> ENGINE = InnoDB;
+
+display
+-------
+show databases;
+use test;
+show tables;
+desc users;
+select * from users;
+
+cleanup
+-------
+drop table users;
+drop database test;
