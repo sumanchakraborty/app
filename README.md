@@ -19,7 +19,8 @@ Below command will start the GO server.
 go run *.go
 ```
 
-## Reference - 
+## Reference
 https://github.com/ShankyTiwari/CRUD-application-GO-lang
+
 https://www.codershood.info/2018/08/22/golang-crud-application-using-mysql/
 
